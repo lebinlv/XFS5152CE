@@ -62,6 +62,6 @@ s.speech_sy('再次尝试')      #Speek "再次尝试"
 
 ## Test through console
 
-`python3 .\speech.py COM9 9600`   #"COM9" and "9600" should be seted according to actual condition
+> python3 .\speech.py COM9 9600   #"COM9" and "9600" should be seted according to actual condition
 
 If your chip speaks "欢迎使用", It works!
