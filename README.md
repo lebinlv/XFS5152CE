@@ -18,11 +18,11 @@ Connect your chip with your device through serial, this module will help you to 
 
 from speech import xf_speech
 
-s = xf_speech('COM9') 
+s = xf_speech('COM9')         #default bps=9600
 
 ```
 
-Set bps:
+Start eith bps setted:
 
 `s = xf_speech('COM9', 9600)    #set bps=9600`
 
@@ -62,6 +62,6 @@ s.speech_sy('再次尝试')      #Speek "再次尝试"
 
 ## Test through console
 
-> python3 .\speech.py COM9 9600   #"COM9" and "9600" should be seted according to actual condition
+> python3 .\speech.py COM9 9600   #"COM9" and "9600" should be setted according to actual condition
 
 If your chip speaks "欢迎使用", It works!
