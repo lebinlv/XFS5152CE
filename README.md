@@ -22,7 +22,7 @@ s = xf_speech('COM9')         #default bps=9600
 
 ```
 
-Start eith bps setted:
+Start with bps setted:
 
 `s = xf_speech('COM9', 9600)    #set bps=9600`
 
