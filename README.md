@@ -4,7 +4,7 @@
 ## Requirements
 
 
-* Python3.6 or newer 
+* Python3 or newer 
 * pyserial
 
 ## Introduction
