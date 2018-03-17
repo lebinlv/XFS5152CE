@@ -5,7 +5,7 @@ import sys
 
 class xf_speech(object):
 
-    def __init__(self, port='/dev/ttyS0'):
+    def __init__(self, port='/dev/ttyS4'):
 
         #打开端口
         #self.ser = serial.Serial(port, bps, byte_size, parity, stop_bit, time_out)
